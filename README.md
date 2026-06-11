@@ -49,8 +49,6 @@ No build step required. Just open any HTML file directly in a browser:
 MiniProject/index.html  →  double-click or open with Live Server in VS Code
 ```
 
-> **Note:** Product images are loaded from Unsplash (requires internet connection). Team member photos should be placed in `images/team/` as `member1.jpg`, `member2.jpg`, `member3.jpg`.
-
 ---
 
 ## Technologies Used

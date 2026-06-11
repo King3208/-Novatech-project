@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="NovaTech Gadgets — browse our full range of phones, laptops, headphones, smartwatches, and gaming gear." />
+    <title>NovaTech Gadgets — Products</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+
+    <!-- ===== NAVBAR ===== -->
+     <nav class="navbar" id="navbar">
+      <div class="nav-brand" id="logo">NovaTech Gadgets</div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+
+      <!-- Page Header -->
+      <div class="page-header" data-animate>
+        <h1>Our Products</h1>
+        <p>Browse our full range of cutting-edge tech gadgets.</p>
+      </div>
+
+      <!-- Products Section -->
+      <section class="section-products">
+        <div class="container">
+
+          <!-- Category Filter Buttons -->
+          <div class="filter-buttons" data-animate>
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="phones">Phones</button>
+            <button class="filter-btn" data-filter="laptops">Laptops</button>
+            <button class="filter-btn" data-filter="headphones">Headphones</button>
+            <button class="filter-btn" data-filter="smartwatches">Smartwatches</button>
+            <button class="filter-btn" data-filter="gaming">Gaming</button>
+          </div>
+
+          <!-- Products Grid -->
+          <div class="products-grid" id="productsGrid">
+
+            <!-- Phones -->
+            <div class="product-card" data-category="phones" data-animate>
+              <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=80" alt="NovaTech X12 Pro" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech X12 Pro</h3>
+                <p class="product-desc">5G flagship with 200MP AI camera and 6000mAh battery.</p>
+                <span class="product-price">$699.99</span>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="phones" data-animate>
+              <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&q=80" alt="NovaTech Lite S" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech Lite S</h3>
+                <p class="product-desc">Compact 5G phone with AMOLED display and all-day battery.</p>
+                <span class="product-price">$349.99</span>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="phones" data-animate>
+              <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?w=600&q=80" alt="NovaTech Fold Z" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech Fold Z</h3>
+                <p class="product-desc">Foldable OLED smartphone with S-Pen and multitasking display.</p>
+                <span class="product-price">$1,099.99</span>
+              </div>
+            </div>
+
+            <!-- Laptops -->
+            <div class="product-card" data-category="laptops" data-animate>
+              <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&q=80" alt="NovaTech UltraBook 15" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech UltraBook 15</h3>
+                <p class="product-desc">Slim ultrabook with Intel Core Ultra, 16GB RAM, 1TB SSD.</p>
+                <span class="product-price">$1,199.99</span>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="laptops" data-animate>
+              <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80" alt="NovaTech ProStation" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech ProStation</h3>
+                <p class="product-desc">High-performance workstation laptop for creators and engineers.</p>
+                <span class="product-price">$1,799.99</span>
+              </div>
+            </div>
+
+            <!-- Headphones -->
+            <div class="product-card" data-category="headphones" data-animate>
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80" alt="NovaTech SoundMax Pro" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech SoundMax Pro</h3>
+                <p class="product-desc">Wireless ANC headphones with 40-hour battery and Hi-Res audio.</p>
+                <span class="product-price">$149.99</span>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="headphones" data-animate>
+              <img src="https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=600&q=80" alt="NovaTech BudsPro" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech BudsPro</h3>
+                <p class="product-desc">True wireless earbuds with spatial audio and active noise cancellation.</p>
+                <span class="product-price">$89.99</span>
+              </div>
+            </div>
+
+            <!-- Smartwatches -->
+            <div class="product-card" data-category="smartwatches" data-animate>
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80" alt="NovaTech Watch X" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech Watch X</h3>
+                <p class="product-desc">Health-focused smartwatch with ECG, SpO2, and 7-day battery life.</p>
+                <span class="product-price">$249.99</span>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="smartwatches" data-animate>
+              <img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&q=80" alt="NovaTech Band Pro" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech Band Pro</h3>
+                <p class="product-desc">Slim fitness band with sleep tracking and 14-day battery.</p>
+                <span class="product-price">$79.99</span>
+              </div>
+            </div>
+
+            <!-- Gaming -->
+            <div class="product-card" data-category="gaming" data-animate>
+              <img src="https://images.unsplash.com/photo-1593118247619-e2d6f056869e?w=600&q=80" alt="NovaTech GamePad Elite" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech GamePad Elite</h3>
+                <p class="product-desc">Wireless controller with haptic feedback and 20-hour battery.</p>
+                <span class="product-price">$69.99</span>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="gaming" data-animate>
+              <img src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=600&q=80" alt="NovaTech HeadsetRGB" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech HeadsetRGB</h3>
+                <p class="product-desc">Gaming headset with 7.1 surround sound and RGB lighting.</p>
+                <span class="product-price">$119.99</span>
+              </div>
+            </div>
+
+          </div><!-- /#productsGrid -->
+
+        </div><!-- /.container -->
+      </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>NovaTech Gadgets</h3>
+          <p>© <span id="footerYear"></span> NovaTech Gadgets. All rights reserved.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="footer-social">
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">𝕏</a>
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📷</a>
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== BACK-TO-TOP ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – NovaTech</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="navbar" id="navbar">
+      <div class="nav-brand" id="logo">NovaTech Gadgets</div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="page-header" data-animate>
+      <h1>Contact us</h1>
+      <p>Have questions about our gadgets, orders, or services?
+          We're here to help. Send us a message and we'll get back to you as soon as possible.</p>
+  </div>
+
+  <!-- ── Contact Section ── -->
+  <section class="section">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- CONTACT INFO -->
+      <div class="contact-info">
+        <h2>Let's Start a Conversation</h2>
+        <p>Send a message and get a response within 24 hours.</p>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-item-text">
+            <strong>Address</strong>
+            <span>14 Admiralty Way, Lekki, Lagos</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-item-text">
+            <strong>Phone</strong>
+            <span>+234 801 234 5678</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-item-text">
+            <strong>Email</strong>
+            <span>hello@novatech.com</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <div class="contact-form-card">
+
+        <form id="contactForm">
+
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input id="name" class="form-control" type="text">
+            <div class="error-msg"></div>
+          </div>
+
+          <div class="form-group">
+            <label>Email *</label>
+            <input id="email" class="form-control" type="email">
+            <div class="error-msg"></div>
+          </div>
+
+          <div class="form-group">
+            <label>Subject *</label>
+            <input id="subject" class="form-control" type="text">
+            <div class="error-msg"></div>
+          </div>
+
+          <div class="form-group">
+            <label>Message *</label>
+            <textarea id="message" class="form-control"></textarea>
+            <div class="error-msg"></div>
+          </div>
+
+          <div class="form-group checkbox">
+            <label>
+              <input type="checkbox" id="consent">
+              I agree to be contacted
+            </label>
+          </div>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+
+        </form>
+
+        <div id="formSuccess" class="form-success">
+          Message sent successfully.
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ── Map Placeholder ── -->
+  <section style="padding: 0 0 96px;">
+    <div class="container">
+      <div style="background:var(--surface); border:1px solid var(--border); border-radius:16px; height:280px; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:12px;">
+        <div style="font-size:3rem;">🗺️</div>
+        <p style="color:var(--muted); font-size:0.9rem;">Map — 14 Admiralty Way, Lekki Phase 1, Lagos</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>NovaTech Gadgets</h3>
+          <p>© <span id="footerYear"></span> NovaTech Gadgets. All rights reserved.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="footer-social">
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">𝕏</a>
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📷</a>
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== BACK-TO-TOP ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+    <script src="./js/main.js"></script>
+</body>
+</html>

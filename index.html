@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="NovaTech Gadgets — cutting-edge tech gadgets built by FUNAAB Cybersecurity students." />
+    <title>NovaTech Gadgets — Home</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-brand" id="logo">NovaTech Gadgets</div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content" data-animate>
+          <h1 class="hero-title">Welcome to <span>NovaTech</span> Gadgets</h1>
+          <p class="hero-subtitle">Discover cutting-edge gadgets designed for the future.</p>
+          <a href="products.html" class="btn btn-primary">Shop Now</a>
+        </div>
+      </section>
+
+      <!-- Featured Products -->
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="section-title" data-animate>Featured Products</h2>
+          <div class="products-grid">
+
+            <div class="product-card" data-category="phones" data-animate>
+              <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=80" alt="NovaTech X12 Pro" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech X12 Pro</h3>
+                <p class="product-desc">Flagship smartphone with AI camera and all-day battery life.</p>
+                <span class="product-price">$699.99</span>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="laptops" data-animate>
+              <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&q=80" alt="NovaTech UltraBook 15" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech UltraBook 15</h3>
+                <p class="product-desc">Slim, powerful laptop with a stunning OLED display and all-day battery.</p>
+                <span class="product-price">$1,199.99</span>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="headphones" data-animate>
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80" alt="NovaTech SoundMax Pro" />
+              <div class="product-card-body">
+                <h3 class="product-name">NovaTech SoundMax Pro</h3>
+                <p class="product-desc">Premium wireless headphones with active noise cancellation and 30-hour playback.</p>
+                <span class="product-price">$149.99</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Us -->
+      <section class="section-features">
+        <div class="container">
+          <h2 class="section-title" data-animate>Why Choose Us</h2>
+          <div class="features-grid">
+
+            <div class="feature-item" data-animate>
+              <span class="feature-icon">🚀</span>
+              <h3>Fast Delivery</h3>
+              <p>Get your gadgets delivered within 2 business days, guaranteed.</p>
+            </div>
+
+            <div class="feature-item" data-animate>
+              <span class="feature-icon">🔒</span>
+              <h3>Secure Payments</h3>
+              <p>Shop with confidence using our encrypted, fraud-protected checkout.</p>
+            </div>
+
+            <div class="feature-item" data-animate>
+              <span class="feature-icon">🛠️</span>
+              <h3>Expert Support</h3>
+              <p>Our tech specialists are available 24/7 to help with any issue.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>NovaTech Gadgets</h3>
+          <p>© <span id="footerYear"></span> NovaTech Gadgets. All rights reserved.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="footer-social">
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">𝕏</a>
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📷</a>
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== BACK-TO-TOP ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
